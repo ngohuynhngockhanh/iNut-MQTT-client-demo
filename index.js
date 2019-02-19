@@ -4,7 +4,7 @@ const  mqtt = require('mqtt')
 const  explode = require('locutus/php/strings/explode')
 
 
-var client  = mqtt.connect('mqtt://ourshark.mysmarthome.vn:8097')
+var client  = mqtt.connect('mqtt://mqtt.mysmarthome.vn:1883')
  
 client.on('connect', function () {
 	
